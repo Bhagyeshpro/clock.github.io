@@ -17,15 +17,18 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .clock {
-    width: 450px;
-    height: 450px;
+    width: 65vh;
+    height: 65vh;
     background-color: rosybrown;
     border-radius: 50%;
     border: 2px solid rosybrown;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .digitalClock {
